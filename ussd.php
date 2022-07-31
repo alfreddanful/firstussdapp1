@@ -1,8 +1,8 @@
 <?php
 
 // Reads the variables sent via POST
-//$sessionId   = $_POST["sessionId"];
-//$serviceCode = $_POST["serviceCode"];
+$sessionId   = $_POST["sessionId"];
+$serviceCode = $_POST["serviceCode"];
 
 $phone = $_GET['phoneNumber'];
 $text = $_GET['text'];
